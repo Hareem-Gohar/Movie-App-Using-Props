@@ -10,7 +10,7 @@ const Card = (props) => {
                 <h2 className="card-title text-3xl">{props.title}</h2>
                 <p className='text-md'>{props.description}</p>
                 <div className="card-actions justify-start">
-                    <button className="btn border-2 border-slate-800  w-full text-xl uppercase text-slate-800">Watch Now</button>
+                    <button className="btn border-2 border-slate-800  w-full text-xl uppercase text-slate-200">Watch Now</button>
                 </div>
             </div>
         </div>
